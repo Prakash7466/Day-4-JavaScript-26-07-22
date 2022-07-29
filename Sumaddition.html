@@ -17,12 +17,13 @@
 <input type="button" onclick="sum()" value="sum">Calculate</button>
 <script>
  function sum(){
-    var fnum=document.getElementById("A1").value;
-    var lnum=document.getElementById("B1").value;
+    var fnum=parseInt(document.getElementById("A1").value);
+    var lnum=parseInt(document.getElementById("B1").value);
 
     var sum=fnum+lnum;
       document.getElementById("sumps").innerHTML=sum;
  }
+ 
 </script>
           
 </body>
